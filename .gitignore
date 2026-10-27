@@ -1,0 +1,79 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### DATOS SENSIBLES Y VARIABLES DE ENTORNO ###
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+
+### CONFIGURACIONES LOCALES ###
+*.local
+*.local.*
+config.local.*
+application-dev.properties
+application-dev.yml
+application-dev.yaml
+
+### ARCHIVOS TEMPORALES ###
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+### LOGS ###
+*.log
+logs/
+
+### BINARIOS Y ARCHIVOS GENERADOS ###
+*.class
+*.jar
+*.war
+*.ear
+
+### COPIAS DE SEGURIDAD ###
+*.backup
+*.old
+
